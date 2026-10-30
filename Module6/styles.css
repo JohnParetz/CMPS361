@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f9ff;
+    margin: 30px;
+}
+
+h1, h2 {
+    color: #174a7e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #cbd9e8;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2476b9;
+}
+
+th a {
+    color: white;
+    text-decoration: none;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e5f2ff;
+}
+
+tbody tr:hover {
+    background-color: #cce5ff;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin-right: 8px;
+    padding: 7px 12px;
+    border: 1px solid #aac9e8;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background-color: #cce5ff;
+}
+
+#search {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #aac9e8;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.search-container {
+    margin: 15px 0 20px;
+}
+
+.comparison {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #e5f2ff;
+    border: 1px solid #aac9e8;
+    border-radius: 6px;
+}
+
+.comparison select,
+.comparison button {
+    padding: 8px;
+    margin: 5px;
+}
+
+#compareResult {
+    font-weight: bold;
+    color: #174a7e;
+}
